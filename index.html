@@ -4,11 +4,20 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title>My Greenhouse</title>
+	<!-- title Icon-->
 	<link rel="shortcut icon" href="favicon.ico">
+	<!-- Stylesheet css-->
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Responsive css-->
 	<link rel="stylesheet" type="text/css" href="responsive-tab.css">
+	<!-- Some Javacript-->
 	<link rel="javascript" type="text/javascript" src="top.js">
+	<!-- Animation css-->
+	<link href="animate1.css" rel="stylesheet">
+	<!-- Firebase -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -45,11 +54,11 @@
 		</div>
 	-->
 
-		<div id="logo">
+		<div id="logo" class="wow bounceInLeft">
 			<img src="logo.png">
 		</div>
 
-		<div class="section">
+		<div class="section wow fadeInDown">
 			<ul>	
 				<li>
 					<a href="#body">Abstract</a>
@@ -66,7 +75,7 @@
 			</ul>
 		</div>
 
-		<div class="connect">
+		<div class="connect wow fadeInLeft">
 			
 					<a href="https://aboutme.google.com/u/0/?referer=gplus" target="_blank" class="googleplus">
 						<img src="gplus.png">
@@ -90,7 +99,7 @@
 						
 		</div>
 
-		<h1>IOT BASED<br>GREENHOUSE MONITORING SYSTEM<br>USING ARDUINO</h1>
+		<h1 class="wow rubberBand">IOT BASED<br>GREENHOUSE MONITORING SYSTEM<br>USING ARDUINO</h1>
 
 		<div id="figure">
 		</div>
@@ -113,7 +122,7 @@
 				<div>
 					<div id="content">
 						<h2>Abstract</h2>
-						<div class="grow">
+						<div class="grow wow fadeInLeft">
 							<p>
 								Monitoring the vital parameters of a greenhouse namely temperature and soil moisture through Internet of Things technology (IOT). Irrespective of wherever in the world you are through IOT technology we can monitor and control the greenhouse parameters. All the vital sensor data will be available to authorised users via internet. Even though the technology is yet to take off globally, this report analyses the possibility of integrating a greenhouse and the IOT. The project covers wide area of embedded system and networking.
 								
@@ -127,7 +136,7 @@
 					
 					<div id="content1">
 						<h2>Objective</h2>
-						<div class="grow">
+						<div class="grow wow fadeInRight">
 							<p>
 								The main objective of this project is to automatically control the system in greenhouse using temperature sensor, humidity sensor, and LDR. The concern with a lot of consumer needs and demand for the agriculture products has stimulated awareness among the farmer that increases their products in the market by implementing advance technologies in this industry. The products that are important that may come to the farmer ’s interest that controls the use of natural sources and natural environment which controls agriculture with various aspects. 
 
@@ -196,25 +205,25 @@
 		</div>
 
 		<div class="main-hex">
-			<div class="hexagon-wrapper">
+			<div class="hexagon-wrapper wow fadeInRightBig">
          		<div class="hexagon">
          			<span class="value">Temperature<br>29°C</span>
          		</div>
     		</div>
 
-		    <div class="hexagon-wrapper">
+		    <div class="hexagon-wrapper wow fadeInUp">
     		    <div class="hexagon">
     		    	<span class="value">Humdity<br>73%</span>
         		</div>
     		</div>
 
-		    <div class="hexagon-wrapper">
+		    <div class="hexagon-wrapper wow fadeInUp">
     		     <div class="hexagon">
     		     	<span class="value">Light Intensity<br>4</span>
         		 </div>
 	    	</div>
 
-	    	<div class="hexagon-wrapper">
+	    	<div class="hexagon-wrapper wow fadeInLeftBig">
     	    	 <div class="hexagon">
     	    	 	<span class="value">Moisture<br>48</span>
         	 	</div>
@@ -255,30 +264,35 @@
 	<div id="wrapper1">
 
 		<section class="saying_block shub">
-    			<div class="saying_content">
-    				<div class="text_box">
-        				<h2>Shubham Pandya</h2>
-        				<p>Frontend Developer</p>
-	    			</div>
+    		<div class="saying_content">
+    			<div class="text_box">
+        			<h2>Shubham Pandya</h2>
+        			<p>Frontend Developer</p>
+        			<div class="portfolio">
+        				<span>
+        					<a href="https://shubham-pandya958.github.io/my-portfolio/" target="_blank" style="color: white">My Portfolio</a>
+        				</span>
+        			</div>
     			</div>
+    		</div>
 		</section>
 
  		<section class="saying_block ash">
-    			<div class="saying_content">
-    				<div class="text_box">
-        				<h2>Aashka Mohite</h2>
-        				<p>Backend Developer</p>
-      				</div>
-    			</div>
+    		<div class="saying_content">
+    			<div class="text_box">
+        			<h2>Aashka Mohite</h2>
+        			<p>Backend Developer</p>
+      			</div>
+    		</div>
   		</section>
 
 		<section class="saying_block kartik">
-    			<div class="saying_content">
-      				<div class="text_box">
-        				<h2>Kartik Panjabi</h2>
+    		<div class="saying_content">
+      			<div class="text_box">
+        			<h2>Kartik Panjabi</h2>
         				<p>IOT Developer</p>
+    					</div>
     				</div>
-    			</div>
   		</section>
 	</div>
 <!--
@@ -307,6 +321,13 @@
   	<script src="/__/firebase/init.js"></script>
 
 	<a id="back2Top" title="Back to top" href="#">sd</a>
+
+	<!-- Scroll js-->
+	<script src="wow.js"></script>
+  	<script src="wow.min.js"></script>
+  	<script>
+   		new WOW().init();
+  	</script>
 
 </body>
 </html>
