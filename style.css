@@ -847,6 +847,35 @@ body {
   /* background-color: rgba(223, 168, 0, 0.7); */
   background-color: rgba(0, 159, 153, 0.5);
 }
+
+.portfolio a:link {
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+.portfolio a:active {
+	text-decoration: none;
+	color: #fff;
+}
+
+.portfolio span {
+	background-color: rgba(52, 152, 219, 0.6);
+	padding: 20px 30px;
+	border-radius: 8px;
+	color: white;
+}
+
+.portfolio span:hover {
+	background-color: rgba(52, 152, 219);
+	cursor: pointer;
+}
+
+.portfolio {	
+	margin-top: 50px;
+}
+}
+
 .saying_block.ash {
   background-image: url(Ash1.jpg);
 }
@@ -854,7 +883,7 @@ body {
   background-color: rgba(16, 36, 55, 0.7);
 }
 .saying_block.kartik {
-  background-image: url(Kartik1.png);
+  background-image: url(kartik1.png);
 }
 .saying_block.kartik .saying_content {
   /*background-color: rgba(16, 36, 55, 0.7);*/
